@@ -115,12 +115,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
 
-            internalList.add(new Mycontact("James", "12345678"));
-            internalList.add(new Mycontact("Joyce", "12345678"));
-
-            internalList.add(new Mycontact("John", "12345678"));
-
-            internalList.add(new Mycontact("Marry", "12345678"));
+         
 
             MyListAdater adapter = new MyListAdater(getApplicationContext(), internalList);
             ListView myview = (ListView) findViewById(R.id.mylist);
