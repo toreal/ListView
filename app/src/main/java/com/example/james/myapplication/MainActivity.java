@@ -80,6 +80,8 @@ public class MainActivity extends AppCompatActivity {
 
         if (jsonStr != null) {
             try {
+
+             //   String test="{contacts:[{\"name\":\"Scott\",\"phone\":\"0922123456\"},{\"name\":\"Scott\",\"phone\":\"0922123456\"}]}";
                 JSONObject jsonObj = new JSONObject(jsonStr);
 
                 // Getting JSON Array node
